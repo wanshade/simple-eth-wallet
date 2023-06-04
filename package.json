@@ -1,0 +1,21 @@
+{
+  "name": "wallet-generator",
+  "version": "1.0.0",
+  "description": "simple wallet generator ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wallet",
+    "web3"
+  ],
+  "author": "wandaem",
+  "license": "ISC",
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "ethers": "^6.4.1",
+    "hdkey": "^2.1.0"
+  }
+}
